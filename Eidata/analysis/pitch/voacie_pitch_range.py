@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the audio file
-y, sr = librosa.load('/home/minkyoon/2023_social/1650-173552-0008.flac')
+y, sr = librosa.load('/home/minkyoon/2023_social/1701-141760-0002.flac')
 
 #Display the log-scaled spectrum
 stft = librosa.stft(y)
